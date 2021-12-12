@@ -2,13 +2,13 @@ package FlightReservationSystem;
 
 public class Main {
     public static void main(String[] args) {
-        Ticket regularTicket = new RegularTicket("12345", "Bengaluru",
-                "Delhi", "DepartureDateTime", "ArrivalDateTime",
-                "6F", 5000, false, null, null, "lunch");
+        Ticket regularTicket = new RegularTicket("23432", "Delhi",
+                "Pune", "DepartureDateTime", "ArrivalDateTime",
+                "12AX", 3499, false, null, null, "Dinner");
 
-        Ticket touristTicket = new TouristTicket("67890", "India", "Dubai",
+        Ticket touristTicket = new TouristTicket("32423", "India", "Canada",
                 "DepartureDateTime", "ArrivalDateTIme",
-                "10A", 15000, false, null, null,
+                "43R", 99000, false, null, null,
                 "Dubai Hotel", new String[]{""});
 
         printTicketDetails(regularTicket);
